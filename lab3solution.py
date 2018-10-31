@@ -1,3 +1,4 @@
+
 def my_sum(my_list):
     """Our version of the sum function.
 
@@ -31,6 +32,7 @@ def my_sum(my_list):
     while i < len(my_list): 
         total += my_list[i] 
         i += 1 
+    print(total)
     return total 
  # FIXME
 
