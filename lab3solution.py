@@ -6,7 +6,7 @@ def my_sum(my_list):
 
     This function takes a list of numbers and returns the sum of
     those numbers. This function should return 0 if the list is
-    empty. We covered this in lecture, but see if you can write the
+    empty. We covered this  lecture, but see if you can write the
     function without referring to your notes.
 
     Arguments:
@@ -27,13 +27,7 @@ def my_sum(my_list):
         7.5
 
     """
-    total = 0
-    i=0 
-    while i < len(my_list): 
-        total += my_list[i] 
-        i += 1 
-    print(total)
-    return total 
+   
  # FIXME
 
 
@@ -304,12 +298,7 @@ def my_reversed(my_list):
         ['z', 2, 3, 'a', 1]
 
     """
-    i=len(my_list)-1
-    my_reversed = []
-    while i >= 0:
-        my_reversed.append(my_list[i])
-        i-=1
-    return my_reversed
+   
 
 
 def my_enumerate(my_list):
